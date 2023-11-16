@@ -1,11 +1,11 @@
-import React from 'react'
+import { PersonProps } from "./Person.types"
 
-type PersonProps = {
-    name: {
-        firstName: string,
-        lastName: string
-    }
-}
+// type PersonProps = {
+//     name: {
+//         firstName: string,
+//         lastName: string
+//     }
+// }
 
 export default function Person(props: PersonProps) {
   return (
